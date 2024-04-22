@@ -57,6 +57,9 @@ importers:
       nodemon:
         specifier: ^3.1.0
         version: 3.1.0
+      pinst:
+        specifier: 3.0.0
+        version: 3.0.0
       prettier:
         specifier: ^3.2.5
         version: 3.2.5
@@ -1144,6 +1147,11 @@ packages:
   pidtree@0.6.0:
     resolution: {integrity: sha512-eG2dWTVw5bzqGRztnHExczNxt5VGsE6OwTeCG3fdUf9KBsZzO3R5OIIIzWR+iZA0NtZ+RDVdaoE2dK1cn6jH4g==}
     engines: {node: '>=0.10'}
+    hasBin: true
+
+  pinst@3.0.0:
+    resolution: {integrity: sha512-cengSmBxtCyaJqtRSvJorIIZXMXg+lJ3sIljGmtBGUVonMnMsVJbnzl6jGN1HkOWwxNuJynCJ2hXxxqCQrFDdw==}
+    engines: {node: '>=12.0.0'}
     hasBin: true
 
   possible-typed-array-names@1.0.0:
@@ -2719,6 +2727,8 @@ snapshots:
   picomatch@2.3.1: {}
 
   pidtree@0.6.0: {}
+
+  pinst@3.0.0: {}
 
   possible-typed-array-names@1.0.0: {}
 
