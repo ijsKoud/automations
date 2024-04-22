@@ -3,6 +3,9 @@ ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
 RUN corepack enable
 
+RUN apk add --no-cache tzdata
+ENV TZ=Europe/Amsterdam
+
 # --- Builder ---
 FROM base AS builder
 WORKDIR /automations
