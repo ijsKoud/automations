@@ -8,14 +8,14 @@
 	"main": "dist/index.js",
 	"homepage": "https://github.com/ijsKoud/automations",
 	"imports": {
-		"#database/*": "./database/*",
-		"#lib/*": "./lib/*"
+		"#database/*": "./dist/database/*",
+		"#lib/*": "./dist/lib/*"
 	},
 	"scripts": {
 		"build": "tsc --build",
 		"build:watch": "tsc --watch",
-		"start:dev": "nodemon ./dist",
-		"start": "node ./dist",
+		"start:dev": "NODE_ENV=development dotenv -e ./.env -- nodemon ./dist",
+		"start": "dotenv -e ./.env -- node ./dist",
 		"lint": "eslint src",
 		"postinstall": "is-ci || husky"
 	},
@@ -38,7 +38,7 @@
 		"@snowcrystals/icicle": "^2.0.4",
 		"axios": "^1.6.8",
 		"cron": "^3.1.7",
-		"dotenv": "^16.4.5",
+		"dotenv-cli": "^7.4.1",
 		"googleapis": "^134.0.0"
 	},
 	"engines": {
