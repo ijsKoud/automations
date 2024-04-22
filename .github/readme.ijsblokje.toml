@@ -1,0 +1,7 @@
+[project]
+icon = "https://ijskoud.dev/assets/svg/logo.svg"
+version = "1.0.0"
+
+[variables]
+information = "Automations for personal use."
+installation = "I see no reason why you would want to install this."

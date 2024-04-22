@@ -1,0 +1,48 @@
+{
+	"name": "automations",
+	"version": "1.0.0",
+	"description": "Automation boring tasks 🤖",
+	"author": "ijsKoud <github@ijskoud.dev>",
+	"license": "MIT",
+	"type": "module",
+	"main": "dist/index.js",
+	"homepage": "https://github.com/ijsKoud/automations",
+	"imports": {
+		"#database/*": "./database/*",
+		"#lib/*": "./lib/*"
+	},
+	"scripts": {
+		"build": "tsc --build",
+		"build:watch": "tsc --watch",
+		"start:dev": "nodemon ./dist",
+		"start": "node ./dist",
+		"lint": "eslint src",
+		"postinstall": "is-ci || husky"
+	},
+	"devDependencies": {
+		"@sapphire/ts-config": "^5.0.1",
+		"@snowcrystals/eslint-config": "^1.0.1",
+		"@snowcrystals/prettier-config": "^1.0.0",
+		"@types/node": "^20.12.7",
+		"eslint": "^8.57.0",
+		"husky": "^9.0.11",
+		"is-ci": "^3.0.1",
+		"lint-staged": "^15.2.2",
+		"nodemon": "^3.1.0",
+		"prettier": "^3.2.5",
+		"typescript": "5.4.5"
+	},
+	"dependencies": {
+		"@google-cloud/local-auth": "^3.0.1",
+		"@googleapis/calendar": "^9.7.0",
+		"@snowcrystals/icicle": "^2.0.4",
+		"axios": "^1.6.8",
+		"cron": "^3.1.7",
+		"dotenv": "^16.4.5",
+		"googleapis": "^134.0.0"
+	},
+	"engines": {
+		"node": ">= v18.16.0"
+	},
+	"packageManager": "pnpm@9.0.5"
+}

@@ -1,0 +1,3 @@
+{
+	"extends": ["@snowcrystals/eslint-config"]
+}
