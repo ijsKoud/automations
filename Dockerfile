@@ -54,4 +54,4 @@ COPY --from=installer --chown=app:app /automations/dist ./dist
 COPY --from=installer --chown=app:app /automations/package.json package.json
 COPY --from=installer --chown=app:app /automations/node_modules node_modules
 
-CMD pnpm start
+CMD node ./dist/index.js
