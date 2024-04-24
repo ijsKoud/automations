@@ -1,13 +1,10 @@
-import { dirname, join } from "node:path";
-import { fileURLToPath } from "node:url";
+import { join } from "node:path";
 
 import { Store } from "./Store.js";
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-
 export class GoogleStore extends Store<GoogleStoreSchema> {
 	public constructor() {
-		super(undefined, join(__dirname, "..", "..", "./data/google.json"));
+		super(undefined, join(process.cwd(), "./data/google.json"));
 	}
 }
 
