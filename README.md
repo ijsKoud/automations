@@ -1,8 +1,8 @@
 <div align="center">
     <img src="https://ijskoud.dev/assets/svg/logo.svg" width="100px" />
-    <h1>project-template</h1>
+    <h1>automations</h1>
   
-  <p>A quick and easy to use template for TypeScript like projects ✏️</p>
+  <p></p>
   
   <p align="center">
     <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg" />
@@ -20,13 +20,11 @@
 
 ## Information
 
-Just a template, like an uncolored drawing. That's all. ✏️
+Automations for personal use.
 
 ## Install
 
-To use this template, you will need the following: `yarn` and `node >= 18.12.1`.
-
-
+I see no reason why you would want to install this.
 
 ## Author
 
