@@ -40,6 +40,10 @@ RUN pnpm pinst --disable
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --prod
 
 
+RUN pnpm add -g @vercel/ncc
+RUN ncc build dist/index.js -o out
+
+
 # --- Runner ---
 FROM base AS runner
 
@@ -53,8 +57,6 @@ RUN adduser --system --uid 1001 app
 USER app
 
 # Copy over the application
-COPY --from=installer --chown=app:app /automations/dist ./dist
-COPY --from=installer --chown=app:app /automations/package.json package.json
-COPY --from=installer --chown=app:app /automations/node_modules node_modules
+COPY --from=installer --chown=app:app /automations/out/ ./out
 
-CMD node ./dist/index.js
+CMD node ./out/index.js
