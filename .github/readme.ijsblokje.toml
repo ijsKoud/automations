@@ -1,7 +1,13 @@
+[repo]
+name = "automations"
+owner = "ijsKoud"
+description = ""
+license = "MIT"
+
 [project]
 icon = "https://ijskoud.dev/assets/svg/logo.svg"
 icon_width = "100px"
-version = "1.0.0"
+version = "1.0.2"
 
 [variables]
 information = "Automations for personal use."
