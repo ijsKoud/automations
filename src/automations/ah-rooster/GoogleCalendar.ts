@@ -26,24 +26,18 @@ export class GoogleCalendar {
 
 		if (data.expireDate < new Date()) {
 			const tokens = await oauth2Client.refreshAccessToken();
-			oauth2Client.setCredentials(tokens.credentials);
+			const parsedDate = new Date(tokens.credentials.expiry_date!);
+			const date = new Date(parsedDate.getTime() - 24 * 60 * 60 * 1e3); // remove one day from expire date because of expiring refresh tokens
 
-			await this.store.update({
+			oauth2Client.setCredentials({ ...tokens.credentials, expiry_date: date.getTime() });
+
+			this.store.update({
 				accessToken: tokens.credentials.access_token!,
 				refreshToken: tokens.credentials.refresh_token!,
 				calendarId: data.calendarId,
-				expireDate: new Date(tokens.credentials.expiry_date!)
+				expireDate: date
 			});
 		}
-
-		oauth2Client.on("tokens", (tokens) =>
-			this.store.update({
-				accessToken: tokens.access_token!,
-				refreshToken: tokens.refresh_token!,
-				calendarId: this.store.get().calendarId,
-				expireDate: new Date(tokens.expiry_date!)
-			})
-		);
 	}
 
 	public async events(startDate?: Date) {
