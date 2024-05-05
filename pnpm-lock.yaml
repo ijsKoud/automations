@@ -12,8 +12,8 @@ importers:
         specifier: ^3.0.1
         version: 3.0.1
       '@googleapis/calendar':
-        specifier: ^9.7.0
-        version: 9.7.0
+        specifier: ^9.7.2
+        version: 9.7.2
       '@snowcrystals/icicle':
         specifier: ^2.0.4
         version: 2.0.4
@@ -27,8 +27,8 @@ importers:
         specifier: ^7.4.1
         version: 7.4.1
       googleapis:
-        specifier: ^135.0.0
-        version: 135.0.0
+        specifier: ^135.1.0
+        version: 135.1.0
     devDependencies:
       '@sapphire/ts-config':
         specifier: ^5.0.1
@@ -95,8 +95,8 @@ packages:
     resolution: {integrity: sha512-YJ3GFbksfHyEarbVHPSCzhKpjbnlAhdzg2SEf79l6ODukrSM1qUOqfopY232Xkw26huKSndyzmJz+A6b2WYn7Q==}
     engines: {node: '>=14.0.0'}
 
-  '@googleapis/calendar@9.7.0':
-    resolution: {integrity: sha512-sZe0YCihDfO14Y1Zg4Qqzof/w5Vqa08ujAfZioXmIsaAu4+zvVsL+BJ1Y6I5LY60ARG4Zf2chjP+tKP3UdPJFQ==}
+  '@googleapis/calendar@9.7.2':
+    resolution: {integrity: sha512-jrHVV8DMSlMGNIPrR6QrfwoqHaXDGmDtUd/wIVT5fC1uTuZWbJjmzo9YZrncCJUgm7oUZdewGG0N908miCtXMg==}
     engines: {node: '>=12.0.0'}
 
   '@humanwhocodes/config-array@0.11.14':
@@ -735,8 +735,8 @@ packages:
     resolution: {integrity: sha512-p3KHiWDBBWJEXk6SYauBEvxw5+UmRy7k2scxGtsNv9eHsTbpopJ3/7If4OrNnzJ9XMLg3IlyQXpVp8YPQsStiw==}
     engines: {node: '>=14.0.0'}
 
-  googleapis@135.0.0:
-    resolution: {integrity: sha512-gIbhO1ptjgg74DEO5WIiyO1l4zLL7Lssab0XoIdZ+TYArib4SwQbKObpidRBdYAixf/fmQd00JIYYx6JtpZzew==}
+  googleapis@135.1.0:
+    resolution: {integrity: sha512-cQ4P0ok2YJZGOW6nBFI/ZC3rjX5CAzp+onIc1O8ovIp1N7wiVW6vGJhLgB3lfUls9EqNf5yNFP4mqTT3MAYInA==}
     engines: {node: '>=14.0.0'}
 
   gopd@1.0.1:
@@ -1490,7 +1490,7 @@ snapshots:
       - encoding
       - supports-color
 
-  '@googleapis/calendar@9.7.0':
+  '@googleapis/calendar@9.7.2':
     dependencies:
       googleapis-common: 7.1.0
     transitivePeerDependencies:
@@ -2324,7 +2324,7 @@ snapshots:
       - encoding
       - supports-color
 
-  googleapis@135.0.0:
+  googleapis@135.1.0:
     dependencies:
       google-auth-library: 9.8.0
       googleapis-common: 7.1.0
