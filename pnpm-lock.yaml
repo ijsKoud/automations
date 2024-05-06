@@ -27,8 +27,8 @@ importers:
         specifier: ^7.4.1
         version: 7.4.1
       googleapis:
-        specifier: ^135.1.0
-        version: 135.1.0
+        specifier: ^136.0.0
+        version: 136.0.0
     devDependencies:
       '@sapphire/ts-config':
         specifier: ^5.0.1
@@ -735,8 +735,8 @@ packages:
     resolution: {integrity: sha512-p3KHiWDBBWJEXk6SYauBEvxw5+UmRy7k2scxGtsNv9eHsTbpopJ3/7If4OrNnzJ9XMLg3IlyQXpVp8YPQsStiw==}
     engines: {node: '>=14.0.0'}
 
-  googleapis@135.1.0:
-    resolution: {integrity: sha512-cQ4P0ok2YJZGOW6nBFI/ZC3rjX5CAzp+onIc1O8ovIp1N7wiVW6vGJhLgB3lfUls9EqNf5yNFP4mqTT3MAYInA==}
+  googleapis@136.0.0:
+    resolution: {integrity: sha512-W2Z1NtFS8ie5SzN74+lnTzLS9d0tS01dybibqXjWKSfdvTkQr9DYsKYNMRpzMAcBva1ZWCAgTiX4fgGz2Cwbaw==}
     engines: {node: '>=14.0.0'}
 
   gopd@1.0.1:
@@ -2324,7 +2324,7 @@ snapshots:
       - encoding
       - supports-color
 
-  googleapis@135.1.0:
+  googleapis@136.0.0:
     dependencies:
       google-auth-library: 9.8.0
       googleapis-common: 7.1.0
