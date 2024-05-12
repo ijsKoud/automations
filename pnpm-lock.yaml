@@ -12,8 +12,8 @@ importers:
         specifier: ^3.0.1
         version: 3.0.1
       '@googleapis/calendar':
-        specifier: ^9.7.2
-        version: 9.7.2
+        specifier: ^9.7.3
+        version: 9.7.3
       '@snowcrystals/icicle':
         specifier: ^2.0.4
         version: 2.0.4
@@ -24,8 +24,8 @@ importers:
         specifier: ^3.1.7
         version: 3.1.7
       dotenv-cli:
-        specifier: ^7.4.1
-        version: 7.4.1
+        specifier: ^7.4.2
+        version: 7.4.2
       googleapis:
         specifier: ^136.0.0
         version: 136.0.0
@@ -95,8 +95,8 @@ packages:
     resolution: {integrity: sha512-YJ3GFbksfHyEarbVHPSCzhKpjbnlAhdzg2SEf79l6ODukrSM1qUOqfopY232Xkw26huKSndyzmJz+A6b2WYn7Q==}
     engines: {node: '>=14.0.0'}
 
-  '@googleapis/calendar@9.7.2':
-    resolution: {integrity: sha512-jrHVV8DMSlMGNIPrR6QrfwoqHaXDGmDtUd/wIVT5fC1uTuZWbJjmzo9YZrncCJUgm7oUZdewGG0N908miCtXMg==}
+  '@googleapis/calendar@9.7.3':
+    resolution: {integrity: sha512-xP4ToxAJ6jAVRXooHD/A3rj8Tkpdy4C5SbhiHNPZ9Z221U+TWIfM1WHq7rqnJDuDsifoQyvDfggKrq34TjdN2A==}
     engines: {node: '>=12.0.0'}
 
   '@humanwhocodes/config-array@0.11.14':
@@ -457,8 +457,8 @@ packages:
     resolution: {integrity: sha512-yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==}
     engines: {node: '>=6.0.0'}
 
-  dotenv-cli@7.4.1:
-    resolution: {integrity: sha512-fE1aywjRrWGxV3miaiUr3d2zC/VAiuzEGghi+QzgIA9fEf/M5hLMaRSXb4IxbUAwGmaLi0IozdZddnVU96acag==}
+  dotenv-cli@7.4.2:
+    resolution: {integrity: sha512-SbUj8l61zIbzyhIbg0FwPJq6+wjbzdn9oEtozQpZ6kW2ihCcapKVZj49oCT3oPM+mgQm+itgvUQcG5szxVrZTA==}
     hasBin: true
 
   dotenv-expand@10.0.0:
@@ -1490,7 +1490,7 @@ snapshots:
       - encoding
       - supports-color
 
-  '@googleapis/calendar@9.7.2':
+  '@googleapis/calendar@9.7.3':
     dependencies:
       googleapis-common: 7.1.0
     transitivePeerDependencies:
@@ -1920,7 +1920,7 @@ snapshots:
     dependencies:
       esutils: 2.0.3
 
-  dotenv-cli@7.4.1:
+  dotenv-cli@7.4.2:
     dependencies:
       cross-spawn: 7.0.3
       dotenv: 16.4.5
