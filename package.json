@@ -35,11 +35,11 @@
 	},
 	"dependencies": {
 		"@google-cloud/local-auth": "^3.0.1",
-		"@googleapis/calendar": "^9.7.2",
+		"@googleapis/calendar": "^9.7.3",
 		"@snowcrystals/icicle": "^2.0.4",
 		"axios": "^1.6.8",
 		"cron": "^3.1.7",
-		"dotenv-cli": "^7.4.1",
+		"dotenv-cli": "^7.4.2",
 		"googleapis": "^136.0.0"
 	},
 	"engines": {
