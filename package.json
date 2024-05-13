@@ -40,7 +40,7 @@
 		"axios": "^1.6.8",
 		"cron": "^3.1.7",
 		"dotenv-cli": "^7.4.2",
-		"googleapis": "^136.0.0"
+		"googleapis": "^137.1.0"
 	},
 	"engines": {
 		"node": ">= v18.16.0"
