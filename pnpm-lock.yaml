@@ -12,8 +12,8 @@ importers:
         specifier: ^3.0.1
         version: 3.0.1
       '@googleapis/calendar':
-        specifier: ^9.7.3
-        version: 9.7.3
+        specifier: ^9.7.5
+        version: 9.7.5
       '@snowcrystals/icicle':
         specifier: ^2.0.4
         version: 2.0.4
@@ -95,8 +95,8 @@ packages:
     resolution: {integrity: sha512-YJ3GFbksfHyEarbVHPSCzhKpjbnlAhdzg2SEf79l6ODukrSM1qUOqfopY232Xkw26huKSndyzmJz+A6b2WYn7Q==}
     engines: {node: '>=14.0.0'}
 
-  '@googleapis/calendar@9.7.3':
-    resolution: {integrity: sha512-xP4ToxAJ6jAVRXooHD/A3rj8Tkpdy4C5SbhiHNPZ9Z221U+TWIfM1WHq7rqnJDuDsifoQyvDfggKrq34TjdN2A==}
+  '@googleapis/calendar@9.7.5':
+    resolution: {integrity: sha512-NfHmolp7HHgbuurIgjiKbTvQAJLuAJJ1p+8YX90uxuUG3lrF2fbMI7yG9hhVfJnfWuzwHrnjyg2RO8e9K4VO3g==}
     engines: {node: '>=12.0.0'}
 
   '@humanwhocodes/config-array@0.11.14':
@@ -1506,7 +1506,7 @@ snapshots:
       - encoding
       - supports-color
 
-  '@googleapis/calendar@9.7.3':
+  '@googleapis/calendar@9.7.5':
     dependencies:
       googleapis-common: 7.1.0
     transitivePeerDependencies:
