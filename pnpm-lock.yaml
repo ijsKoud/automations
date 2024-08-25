@@ -12,14 +12,14 @@ importers:
         specifier: ^3.0.1
         version: 3.0.1
       '@googleapis/calendar':
-        specifier: ^9.7.7
-        version: 9.7.7
+        specifier: ^9.7.9
+        version: 9.7.9
       '@snowcrystals/icicle':
         specifier: ^2.0.4
         version: 2.0.4
       axios:
-        specifier: ^1.7.4
-        version: 1.7.4
+        specifier: ^1.7.5
+        version: 1.7.5
       cron:
         specifier: ^3.1.7
         version: 3.1.7
@@ -95,8 +95,8 @@ packages:
     resolution: {integrity: sha512-YJ3GFbksfHyEarbVHPSCzhKpjbnlAhdzg2SEf79l6ODukrSM1qUOqfopY232Xkw26huKSndyzmJz+A6b2WYn7Q==}
     engines: {node: '>=14.0.0'}
 
-  '@googleapis/calendar@9.7.7':
-    resolution: {integrity: sha512-PPXjXlnZqyZv1+1SstLLTOBvro5HuXAsNGwjdB+2VXmJH3DjPvdCiq3i7DJkCi19tcpddzW6Oq9FM1bpUZHq3A==}
+  '@googleapis/calendar@9.7.9':
+    resolution: {integrity: sha512-s1dD/j+WtJpdJ7dxmJL1NeSSvoO4D+hcGqSGw4+UtEUpGgBmmlE9Ptxf04cRj1T9Y2xEUfhszKI87+rgxcW2iA==}
     engines: {node: '>=12.0.0'}
 
   '@humanwhocodes/config-array@0.11.14':
@@ -314,8 +314,8 @@ packages:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
 
-  axios@1.7.4:
-    resolution: {integrity: sha512-DukmaFRnY6AzAALSH4J2M3k6PkaC+MfaAGdEERRWcC9q3/TWQwLpHR8ZRLKTdQ3aBDL64EdluRDjJqKw+BPZEw==}
+  axios@1.7.5:
+    resolution: {integrity: sha512-fZu86yCo+svH3uqJ/yTdQ0QHpQu5oL+/QE+QPSv6BZSkDAoky9vytxp7u5qk83OJFS3kEBcesWni9WTZAv3tSw==}
 
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
@@ -1506,7 +1506,7 @@ snapshots:
       - encoding
       - supports-color
 
-  '@googleapis/calendar@9.7.7':
+  '@googleapis/calendar@9.7.9':
     dependencies:
       googleapis-common: 7.1.0
     transitivePeerDependencies:
@@ -1784,7 +1784,7 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.0.0
 
-  axios@1.7.4:
+  axios@1.7.5:
     dependencies:
       follow-redirects: 1.15.6
       form-data: 4.0.0
