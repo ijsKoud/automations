@@ -38,7 +38,7 @@
 		"@googleapis/calendar": "^9.7.9",
 		"@snowcrystals/icicle": "^2.0.4",
 		"axios": "^1.7.7",
-		"cron": "^3.1.7",
+		"cron": "^3.1.8",
 		"dotenv-cli": "^7.4.2",
 		"googleapis": "^143.0.0"
 	},
