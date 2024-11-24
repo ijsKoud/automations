@@ -39,7 +39,7 @@
 		"@snowcrystals/icicle": "^2.0.4",
 		"axios": "^1.7.7",
 		"cron": "^3.2.1",
-		"dotenv-cli": "^7.4.2",
+		"dotenv-cli": "^7.4.4",
 		"googleapis": "^143.0.0"
 	},
 	"engines": {
