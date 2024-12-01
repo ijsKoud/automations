@@ -40,8 +40,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       '@types/node':
-        specifier: ^20.17.7
-        version: 20.17.7
+        specifier: ^20.17.9
+        version: 20.17.9
       eslint:
         specifier: ^8.57.1
         version: 8.57.1
@@ -61,8 +61,8 @@ importers:
         specifier: 3.0.0
         version: 3.0.0
       prettier:
-        specifier: ^3.3.3
-        version: 3.3.3
+        specifier: ^3.4.1
+        version: 3.4.1
       typescript:
         specifier: 5.7.2
         version: 5.7.2
@@ -161,8 +161,8 @@ packages:
   '@types/luxon@3.4.2':
     resolution: {integrity: sha512-TifLZlFudklWlMBfhubvgqTXRzLDI5pCbGa4P8a3wPyUQSW+1xQ5eDsreP9DWHX3tjq1ke96uYG/nwundroWcA==}
 
-  '@types/node@20.17.7':
-    resolution: {integrity: sha512-sZXXnpBFMKbao30dUAvzKbdwA2JM1fwUtVEq/kxKuPI5mMwZiRElCpTXb0Biq/LMEVpXDZL5G5V0RPnxKeyaYg==}
+  '@types/node@20.17.9':
+    resolution: {integrity: sha512-0JOXkRyLanfGPE2QRCwgxhzlBAvaRdCNMcvbd7jFfpmD4eEXll7LRwy5ymJmyeZqk7Nh7eD2LeUyQ68BbndmXw==}
 
   '@types/semver@7.5.8':
     resolution: {integrity: sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==}
@@ -1179,8 +1179,8 @@ packages:
     resolution: {integrity: sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==}
     engines: {node: '>=6.0.0'}
 
-  prettier@3.3.3:
-    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
+  prettier@3.4.1:
+    resolution: {integrity: sha512-G+YdqtITVZmOJje6QkXQWzl3fSfMxFwm1tjTyo9exhkmWSqC4Yhd1+lug++IlR2mvRVAxEDDWYkQdeSztajqgg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1541,8 +1541,8 @@ snapshots:
       '@typescript-eslint/parser': 7.7.1(eslint@8.57.1)(typescript@5.7.2)
       eslint: 8.57.1
       eslint-config-prettier: 9.1.0(eslint@8.57.1)
-      eslint-plugin-prettier: 5.1.3(eslint-config-prettier@9.1.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.3.3)
-      prettier: 3.3.3
+      eslint-plugin-prettier: 5.1.3(eslint-config-prettier@9.1.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.4.1)
+      prettier: 3.4.1
       typescript: 5.7.2
     transitivePeerDependencies:
       - '@types/eslint'
@@ -1563,9 +1563,9 @@ snapshots:
       eslint: 8.57.1
       eslint-config-prettier: 9.1.0(eslint@8.57.1)
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.7.1(eslint@8.57.1)(typescript@5.7.2))(eslint@8.57.1)
-      eslint-plugin-prettier: 5.1.3(eslint-config-prettier@9.1.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.3.3)
+      eslint-plugin-prettier: 5.1.3(eslint-config-prettier@9.1.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.4.1)
       eslint-plugin-simple-import-sort: 12.1.0(eslint@8.57.1)
-      prettier: 3.3.3
+      prettier: 3.4.1
     transitivePeerDependencies:
       - '@types/eslint'
       - eslint-import-resolver-typescript
@@ -1586,7 +1586,7 @@ snapshots:
 
   '@types/luxon@3.4.2': {}
 
-  '@types/node@20.17.7':
+  '@types/node@20.17.9':
     dependencies:
       undici-types: 6.19.6
 
@@ -2085,10 +2085,10 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-plugin-prettier@5.1.3(eslint-config-prettier@9.1.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.3.3):
+  eslint-plugin-prettier@5.1.3(eslint-config-prettier@9.1.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.4.1):
     dependencies:
       eslint: 8.57.1
-      prettier: 3.3.3
+      prettier: 3.4.1
       prettier-linter-helpers: 1.0.0
       synckit: 0.8.8
     optionalDependencies:
@@ -2760,7 +2760,7 @@ snapshots:
     dependencies:
       fast-diff: 1.3.0
 
-  prettier@3.3.3: {}
+  prettier@3.4.1: {}
 
   proxy-from-env@1.1.0: {}
 
